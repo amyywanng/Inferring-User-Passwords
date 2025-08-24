@@ -1,0 +1,39 @@
+WordNet Semantic Generalization Analysis
+==================================================
+
+Semantically related words found (not in original documents):
+  defect: 21
+  imperfection: 10
+  imperfectness: 10
+  shortcoming: 7
+  fault: 7
+  flaw: 7
+  young: 7
+  offspring: 7
+  LorettaYoung: 7
+  WhitneyYoung: 7
+  trinitrotoluene: 7
+  birthdefect: 6
+  congenitalanomaly: 6
+  congenitaldefect: 6
+  congenitaldisorder: 6
+  congenitalabnormality: 6
+  myelatelia: 6
+  glitch: 6
+  blister: 6
+  hole: 6
+  youngmammal: 6
+  hatchling: 6
+  youngbird: 6
+  orphan: 6
+  spat: 6
+  youngfish: 6
+  herd: 5
+  disadvantage: 5
+  animal: 5
+  animatebeing: 5
+  beast: 5
+  brute: 5
+  creature: 5
+  fauna: 5
+  explosivecompound: 5
