@@ -5,17 +5,17 @@ This project implements a sophisticated password seed identification and generat
 ## Features
 
 - Scans multiple file types (txt, doc, docx, pdf, md, csv, etc.)
-- Uses Named Entity Recognition (NER) to identify potential password seeds
-- Implements TF-IDF analysis to find important terms
+- Uses **Named Entity Recognition (NER)** to identify potential password seeds
+- Implements **TF-IDF analysis** to find important terms
 - **WordNet semantic generalization** to discover semantically related words not present in documents
 - **Known password pattern analysis** to identify proven password structures and components
-- Integrates with RCMP data to boost relevant seeds
+- Integrates with **RCMP data** to boost relevant seeds
 - Generates password variations using common patterns and transformations
 - Supports combination of multiple seeds
 - Ranks seeds by importance and frequency
 - Filters out less meaningful date entities (weekdays, relative dates)
 - Balances RCMP data influence for more diverse passwords
-- **Dynamic weight scaling** based on document count to prevent over-prioritization
+- Dynamic weight scaling based on document count to prevent over-prioritization
 
 ## Installation
 
@@ -48,8 +48,8 @@ python main.py
    - Scan the specified directory for text files
    - Extract and analyze text from these files
    - Identify potential password seeds using NER and TF-IDF
-   - **Generate semantically related words using WordNet**
-   - **Analyze known password patterns from reference data**
+   - Generate semantically related words using WordNet
+   - Analyze known password patterns from reference data
    - Generate password variations
    - Save results to:
      - `password_seeds.txt`: Contains ranked password seeds
@@ -250,8 +250,8 @@ You can customize various aspects of the system by modifying:
 2. File type extensions in `scan_directory()`
 3. Password generation patterns in `generate_passwords()`
 4. TF-IDF parameters in `identify_important_terms()`
-5. **WordNet processing limits** in `generalize_with_wordnet()`
-6. **Known password file path** in `analyze_known_passwords()`
+5. WordNet processing limits in `generalize_with_wordnet()`
+6. Known password file path in `analyze_known_passwords()`
 
 ## Requirements
 
